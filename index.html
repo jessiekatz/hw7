@@ -25,7 +25,7 @@
   
     <script>
         $(document).ready(function() {
-            $.get("products.json", function(data) {
+            $.get("https://jessiekatz.github.io/hw7/products.json", function(data) {
                 // console.log('raw data\n'+ data) // data is a JSON object
                 $('#json-data').html(JSON.stringify(data, null, '\t\n'));
         
